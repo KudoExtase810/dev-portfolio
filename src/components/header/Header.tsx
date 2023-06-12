@@ -35,7 +35,10 @@ function Header() {
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://linkedin.com">
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/in/alaeddine-benkessirat-b02212247/"
+                        >
                             <BsLinkedin size={32} />
                         </a>
                     </li>
