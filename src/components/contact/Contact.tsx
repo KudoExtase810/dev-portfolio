@@ -63,7 +63,7 @@ function Contact() {
                     <div className={styles.input_container}>
                         <label htmlFor="name">Name</label>
                         <input
-                            maxLength={65}
+                            maxLength={64}
                             required
                             id="name"
                             type="text"
