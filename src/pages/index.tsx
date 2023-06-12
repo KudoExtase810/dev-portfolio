@@ -2,7 +2,7 @@ import Head from "next/head";
 import Skills from "@/components/skills/Skills";
 import Projects from "@/components/projects/Projects";
 import Contact from "@/components/contact/Contact";
-import Header from "@/components/header/header";
+import Header from "@/components/header/Header";
 
 export default function Home() {
     return (
