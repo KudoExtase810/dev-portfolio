@@ -5,7 +5,7 @@ import { BsLinkedin, BsEnvelopeAtFill } from "react-icons/bs";
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <p>&copy; 2023 - Built with love 💖 by Alaa Ben.</p>
+            <p>&copy; 2023 - Crafted with 💖 by Alaa Ben.</p>
 
             <ul>
                 <li>
