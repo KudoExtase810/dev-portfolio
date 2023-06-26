@@ -7,10 +7,10 @@ function Navbar() {
     const toggleMenu = () => setShowMenu(!showMenu);
 
     const links = [
-        { name: "projects", to: "#projects" },
-        { name: "skills", to: "#skills" },
-        { name: "contact", to: "#contact" },
-        { name: "resume", to: "/resume.pdf" },
+        { name: "projects", to: "#projects", target: "_self" },
+        { name: "skills", to: "#skills", target: "_self" },
+        { name: "contact", to: "#contact", target: "_self" },
+        { name: "resume", to: "/resume.pdf", target: "_blank" },
     ];
     return (
         <nav className={styles.navbar}>
@@ -24,7 +24,7 @@ function Navbar() {
             <ul className={!showMenu ? styles.hidden : undefined}>
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a href={link.to}>{link.name}</a>
+                        <a href={link.to} target={link.target} >{link.name}</a>
                         <div></div>
                     </li>
                 ))}
