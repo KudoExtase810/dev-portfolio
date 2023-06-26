@@ -10,7 +10,7 @@ function Navbar() {
         { name: "projects", to: "#projects" },
         { name: "skills", to: "#skills" },
         { name: "contact", to: "#contact" },
-        { name: "resume", to: "/" },
+        { name: "resume", to: "/src/resume.pdf" },
     ];
     return (
         <nav className={styles.navbar}>
