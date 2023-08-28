@@ -1,5 +1,5 @@
 import { RoughNotation } from "react-rough-notation";
-import projects from "../../data/projects.json";
+import projects from "../../data/projects";
 import styles from "./projects.module.css";
 import SingleProject from "./SingleProject";
 import { useInView } from "react-intersection-observer";

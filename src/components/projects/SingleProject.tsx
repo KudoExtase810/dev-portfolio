@@ -1,7 +1,7 @@
+import type { StaticImageData } from "next/image";
 import Image from "next/image";
-import froggerShot from "../../../public/images/frogger-sc.png";
-import ovenglowShot from "../../../public/images/ovenglow-sc.png";
 import styles from "./projects.module.css";
+import Link from "next/link";
 
 interface props {
     project: {
@@ -10,14 +10,11 @@ interface props {
         link: string;
         role: string;
         description: string;
+        image: StaticImageData;
     };
 }
 
 function SingleProject({ project }: props) {
-    const images = {
-        "Bug Tracker": froggerShot,
-        Ovenglow: ovenglowShot,
-    };
     return (
         <li className={styles.project}>
             <div>
@@ -30,19 +27,19 @@ function SingleProject({ project }: props) {
                 </ul>
                 <div className={styles.desc}>
                     <div className={styles.animated_btn_wrapper}>
-                        <a target="_blank" href={project.link}>
+                        <Link target="_blank" href={project.link}>
                             View project
-                        </a>
-                        <a tabIndex={-1} target="_blank" href={project.link}>
+                        </Link>
+                        <Link tabIndex={-1} target="_blank" href={project.link}>
                             View project
-                        </a>
+                        </Link>
                     </div>
                     <p>{project.description}</p>
                 </div>
             </div>
             <a href={project.link} target="_blank">
                 <Image
-                    src={images[project.name as "Ovenglow" | "Bug Tracker"]}
+                    src={project.image}
                     alt={project.name}
                     quality={100}
                     width={425}
