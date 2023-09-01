@@ -11,7 +11,7 @@ export default function Home() {
                 <title>Alaa Ben | Portfolio</title>
                 <meta
                     name="description"
-                    content="fullstack developer portfolio"
+                    content="Fullstack developer portfolio"
                 />
                 <meta
                     name="viewport"
