@@ -52,6 +52,8 @@ const projects = [
         ],
         link: "https://afriha.shop",
         role: "Work project",
+        description:
+            "E-commerce website for selling different types of subscriptions with all the functionalities that an online store might need. The admins can keep track of everything and change what's needed dynamically.",
         image: afrihaShot,
     },
     {
