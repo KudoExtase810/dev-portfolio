@@ -1,6 +1,6 @@
 import froggerShot from "../../public/images/frogger-sc.png";
 import ovenglowShot from "../../public/images/ovenglow-sc.png";
-import metamadShot from "../../public/images/metamad-sc.png";
+import metamadShot from "../../public/images/metamadness-sc.png";
 
 const projects = [
     {
