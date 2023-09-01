@@ -1,6 +1,7 @@
 import froggerShot from "../../public/images/frogger-sc.png";
 import ovenglowShot from "../../public/images/ovenglow-sc.png";
 import metamadShot from "../../public/images/metamadness-sc.png";
+import sonelgazShot from "../../public/images/sonelgaz-sc.png";
 
 const projects = [
     {
@@ -38,6 +39,22 @@ const projects = [
         description:
             "A cool looking and well designed landing page that relies on Framer Motion for attractive animations.",
         image: metamadShot,
+    },
+    {
+        name: "Sonelgaz App",
+        tools: [
+            "React",
+            "TypeScript",
+            "DaisyUI",
+            "Express.js",
+            "Mongoose",
+            "Netlify",
+        ],
+        link: "https://sonelgaz.netlify.app",
+        role: "Company Project",
+        description:
+            'A secure role-based MERN stack app made for the company "Sonelgaz" to help manage different requests and forms and keep track of them.',
+        image: sonelgazShot,
     },
 ];
 export default projects;
