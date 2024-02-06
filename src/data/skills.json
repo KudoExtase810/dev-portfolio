@@ -5,10 +5,10 @@
     { "name": "TypeScript", "type": null, "typeColor": "#FFFF00" },
     { "name": "React", "type": "Frontend", "typeColor": "#FFFF00" },
     { "name": "Next.js", "type": "Fullstack", "typeColor": "#A3F142" },
+    { "name": "React Native", "type": "Mobile", "typeColor": "#FFFF00" },
     { "name": "Node.js", "type": "Backend", "typeColor": "#28DF99" },
     { "name": "Express.js", "type": "Backend", "typeColor": "#28DF99" },
     { "name": "MongoDB", "type": "Database", "typeColor": "#F45050" },
     { "name": "Tailwind", "type": "Frontend", "typeColor": "#FFFF00" },
-    { "name": "Git", "type": "VCS", "typeColor": "#408CE3" },
-    { "name": "WordPress", "type": "CMS", "typeColor": "#6161FF" }
+    { "name": "Supabase", "type": "Backend", "typeColor": "#28DF99" }
 ]
