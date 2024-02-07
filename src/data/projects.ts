@@ -7,15 +7,32 @@ const projects = [
             "Next.js",
             "Tailwind",
             "Mongoose",
-            "Vercel",
             "Cloudinary",
-            "Mapbox",
+            "ShadcnUI",
         ],
-        link: "https://ovenglow.vercel.app/login",
-        role: "E-commerce website",
+        link: "https://ms-techx.vercel.app",
+        role: "E-commerce website + CMS",
         description:
-            "A fully featured modern website built using the latest technologies. This platform exemplifies clean design principles and incorporates advanced functionalities, offering users an intuitive browsing experience. With a comprehensive admin panel, administrators have complete control over various aspects of the website. This project demonstrates proficiency in leveraging cutting-edge tools to create efficient and visually appealing online platforms.",
+            "A cutting-edge website with sleek design and advanced features, providing users an intuitive browsing experience. Its comprehensive admin panel gives administrators full control. This project showcases expertise in using modern tools to create efficient online platforms.",
         image: "/images/projects/ms-tech.png",
+    },
+    {
+        name: "Blog Manager",
+        tools: [
+            "React",
+            "TypeScript",
+            "Next.js",
+            "Tailwind",
+            "Mongoose",
+            "TipTap RTE",
+            "Cloudinary",
+            "DaisyUI",
+        ],
+        link: "https://blog-mx.vercel.app",
+        role: "Content Management System",
+        description:
+            "A contemporary blogging space where you can effortlessly create and manage articles. Easily categorize and tag your posts, while maintaining full control over styling to suit your preferences. Plus, you can later request these articles and seamlessly display them on your website through the API",
+        image: "/images/projects/blog-manager.png",
     },
 ];
 export default projects;

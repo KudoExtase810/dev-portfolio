@@ -41,7 +41,7 @@ function SingleProject({ project }: props) {
                 <Image
                     src={project.image}
                     alt={project.name}
-                    quality={100}
+                    unoptimized
                     width={425}
                     height={420}
                 />
