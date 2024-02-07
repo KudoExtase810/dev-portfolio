@@ -1,4 +1,3 @@
-import type { StaticImageData } from "next/image";
 import Image from "next/image";
 import styles from "./projects.module.css";
 import Link from "next/link";
@@ -10,7 +9,7 @@ interface props {
         link: string;
         role: string;
         description: string;
-        image: StaticImageData;
+        image: string;
     };
 }
 
