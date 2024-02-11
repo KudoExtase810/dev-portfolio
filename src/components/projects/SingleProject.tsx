@@ -3,22 +3,29 @@ import styles from "./projects.module.css";
 import Link from "next/link";
 
 interface props {
-    project: {
-        name: string;
-        tools: string[];
-        link: string;
-        role: string;
-        description: string;
-        image: string;
-    };
+    project: Project;
 }
 
 function SingleProject({ project }: props) {
     return (
         <li className={styles.project}>
             <div>
-                <div>{project.role}</div>
-                <h3>{project.name}</h3>
+                <div>
+                    {!project.isUnfinished ? (
+                        project.role
+                    ) : (
+                        <span
+                            style={{
+                                color: "#ff715b",
+                                background: "#121e27",
+                                padding: "10px 12px",
+                            }}
+                        >
+                            Still Under Development
+                        </span>
+                    )}
+                </div>
+                <h3>{project.name} </h3>
                 <ul>
                     {project.tools.map((tool, index) => (
                         <li key={index}>{tool}</li>
@@ -36,12 +43,12 @@ function SingleProject({ project }: props) {
                     <p>{project.description}</p>
                 </div>
             </div>
-            <a href={project.link} target="_blank">
+            <a href={project.link} target="_blank" className="img-link">
                 <Image
                     src={project.image}
                     alt={project.name}
                     unoptimized
-                    width={425}
+                    width={480}
                     height={420}
                 />
             </a>
