@@ -14,13 +14,7 @@ function SingleProject({ project }: props) {
                     {!project.isUnfinished ? (
                         project.role
                     ) : (
-                        <span
-                            style={{
-                                color: "#ff715b",
-                                background: "#121e27",
-                                padding: "10px 12px",
-                            }}
-                        >
+                        <span className={styles.unfinished_note}>
                             Still Under Development
                         </span>
                     )}
@@ -43,7 +37,7 @@ function SingleProject({ project }: props) {
                     <p>{project.description}</p>
                 </div>
             </div>
-            <a href={project.link} target="_blank" className="img-link">
+            <a href={project.link} target="_blank" className={styles.img_link}>
                 <Image
                     src={project.image}
                     alt={project.name}
