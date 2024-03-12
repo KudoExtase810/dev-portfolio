@@ -18,9 +18,9 @@ const projects = [
         isUnfinished: false,
     },
     {
-        name: "AI Tools",
-        tools: ["DrizzleORM", "TypeScript", "Next.js", "Tailwind", "MySQL"],
-        link: "https://ai-tools-x.vercel.app",
+        name: "Sefar AI",
+        tools: ["Supabase", "TypeScript", "Next.js", "Tailwind", "PostgreSQL"],
+        link: "https://serfarai.vercel.app",
         role: "AI Photo editor",
         description:
             "A comprehensive online platform providing user-friendly image editing tools catering to a wide range of digital projects and creative expressions.",
