@@ -20,7 +20,7 @@ const projects = [
     {
         name: "Sefar AI",
         tools: ["Supabase", "TypeScript", "Next.js", "Tailwind", "PostgreSQL"],
-        link: "https://serfarai.vercel.app",
+        link: "https://sefarai.vercel.app",
         role: "AI Photo editor",
         description:
             "A comprehensive online platform providing user-friendly image editing tools catering to a wide range of digital projects and creative expressions.",
